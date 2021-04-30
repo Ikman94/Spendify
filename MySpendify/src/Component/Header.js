@@ -27,6 +27,9 @@ export default function Header() {
                                 <a href="#questions" className="nav-link">Questions</a>
                             </li>
                             <li className="nav-item">
+                                <a href="#blog" className="nav-link" >Blog.</a>
+                            </li>
+                            <li className="nav-item">
                                 <a href="#contactUs" className="nav-link" >Contact</a>
                             </li>
                         </ul>

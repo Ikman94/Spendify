@@ -80,15 +80,15 @@ export default function Slider() {
         <div className="slideshow">
             <div
                 className="slideshowSlider"
-                style={{ transform: `translate3d(${-index * 110}%, 0, 0)` }}
+                style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
             >
                 {slideImages.map((slide, index) => (
                     <div
                         className="slide"
                         key={index}
-                        // style={{ backgroundColor }}
                     >
                         <img src={slide.img}/>
+                        {/* <h3> {slide.description} </h3> */}
                     </div>
                 ))}
             </div>
